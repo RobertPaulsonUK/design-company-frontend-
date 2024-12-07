@@ -2,20 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.container {
+    max-width: 1322px;
+    padding: 0 16px;
+    margin: 0 auto;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.custom-background {
+    background: linear-gradient(180deg, rgba(171, 174, 183, 0.00) 0%, #ABAEB7 51.56%, rgba(171, 174, 183, 0.00) 100%);
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.burger span{
+    display: block;
+    width: 24px;
+    height: 3px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 6px;
+    transition: all .3s ease-in-out;
+}
+.burger span:nth-child(2) {
+    width: 12px;
+}
+.burger span:last-child {
+    margin-bottom: 0;
+}
+.burger.active span {
+    background: #FFC978;
+}
+.burger.active span:nth-child(1){
+    transform: translateY(9px) rotate(45deg);
+}
+.burger.active span:nth-child(2){
+    opacity: 0;
+}
+.burger.active span:nth-child(3){
+    transform: translateY(-9px) rotate(-45deg);
+}
+html.scroll-lock,
+html.scroll-lock body {
+    overflow-y: hidden;
 }
