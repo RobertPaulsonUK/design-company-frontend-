@@ -5,6 +5,7 @@ export interface HomeInterface {
     projects : ProjectsInterface
     experience : ExperienceInterface
     team : TeamDataInterface
+    gallery : GalleryDataInterface
 }
 export interface IntroInterface {
     title : string
@@ -63,4 +64,11 @@ export interface TeamWorkerInterface {
     name : string
     position : string
     order : number
+}
+export interface GalleryDataInterface {
+    imageUrls : GalleryItemInterface[]
+}
+export interface GalleryItemInterface {
+    order : number
+    src : string
 }

@@ -155,5 +155,37 @@ export const HomeData = {
                 order : 5
             }
         ]
+    },
+    gallery : {
+        imageUrls : [
+            {
+                order : 1,
+                src : "/gallery/image-1.png"
+            },
+            {
+                order : 2,
+                src : "/gallery/image-2.png"
+            },
+            {
+                order : 3,
+                src : "/gallery/image-3.png"
+            },
+            {
+                order : 4,
+                src : "/gallery/image-4.png"
+            },
+            {
+                order : 5,
+                src : "/gallery/image-5.png"
+            },
+            {
+                order : 6,
+                src : "/gallery/image-6.png"
+            },
+            {
+                order : 7,
+                src : "/gallery/image-7.png"
+            }
+        ]
     }
 }

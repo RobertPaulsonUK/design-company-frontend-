@@ -7,10 +7,17 @@ import About from "@/components/about/about";
 import Projects from "@/components/projects/projects";
 import Experience from "@/components/experience/experience";
 import Team from "@/components/team/team";
+import Gallery from "@/components/gallery/gallery";
 
 export default function Home() {
     const {
-        intro,service,about,projects,experience,team
+        intro,
+        service,
+        about,
+        projects,
+        experience,
+        team,
+        gallery
     } = HomeData
   return (
     <div className={"wrapper relative z-[1] overflow-x-hidden"}>
@@ -21,6 +28,7 @@ export default function Home() {
         <Projects data={projects}/>
         <Experience data={experience}/>
         <Team data={team}/>
+        <Gallery imageUrls={gallery.imageUrls}/>
         <Footer/>
     </div>
   );
