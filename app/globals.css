@@ -10,6 +10,14 @@
 .custom-background {
     background: linear-gradient(180deg, rgba(171, 174, 183, 0.00) 0%, #ABAEB7 51.56%, rgba(171, 174, 183, 0.00) 100%);
 }
+.service-background {
+    background: linear-gradient(180deg, rgba(31, 34, 43, 0.00) 0.42%, #10131C 100%);
+}
+@media (max-width: 768px) {
+    .service-background {
+        background: linear-gradient(180deg, rgba(56, 101, 107, 0.00) 0.42%, #063339 100%);
+    }
+}
 .burger span{
     display: block;
     width: 24px;

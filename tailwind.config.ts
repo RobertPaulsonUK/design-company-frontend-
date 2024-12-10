@@ -14,6 +14,7 @@ const config: Config = {
         lg: "1rem",
       },
       screens: {
+        xsm: "100%",
         sm: "100%",
         md: "100%",
         lg: "100%",
@@ -27,6 +28,7 @@ const config: Config = {
       lg: "1024px",
       md: "768px",
       sm: "640px",
+      xsm: "420px"
     },
   },
   plugins: [],

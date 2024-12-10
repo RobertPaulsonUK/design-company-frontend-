@@ -1,0 +1,26 @@
+.service-slider {
+  margin: 50px auto 0;
+  max-width: 90%;
+  .slick-next {
+    right: -30px;
+  }
+  .slick-prev {
+    left: -30px;
+  }
+}
+@media (max-width: 575px) {
+  .service-slider {
+    margin-bottom: 50px;
+    max-width: 100%;
+    .slick-next {
+      top: 100%;
+      right: 50%;
+      transform: translate(150%,100%);
+    }
+    .slick-prev {
+      top: 100%;
+      left: 50%;
+      transform: translate(-150%,100%);
+    }
+  }
+}

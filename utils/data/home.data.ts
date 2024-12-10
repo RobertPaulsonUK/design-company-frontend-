@@ -30,5 +30,130 @@ export const HomeData = {
                 imageSrc : "/service/service-4.png"
             },
         ]
+    },
+    about : {
+        title : "About Us",
+        description : "As development continues, engineers may visit building destinations to guarantee that temporary workers pursue the plan, keep to the timetable, utilize the predefined materials, and meet work-quality models.",
+        images: [
+            "/about/image-2.png",
+            "/about/image-3.png"
+        ] ,
+        bottom : {
+            number : 85,
+            text : "Satisfied Clients",
+            imageUrl : "/about/image-1.png"
+        }
+    },
+    projects : {
+        title : "Our Latest Projects",
+        subtitle : "OUR PROJECT",
+        items : [
+            {
+                imageUrl : "/projects/project-1.png",
+                category : {
+                    id : 3,
+                    title : "Interior Design"
+                }
+            },
+            {
+                imageUrl : "/projects/project-2.png",
+                category : {
+                    id : 3,
+                    title : "Interior Design"
+                }
+            },
+            {
+                imageUrl : "/projects/project-3.png",
+                category : {
+                    id : 1,
+                    title : "Architecture"
+                }
+            },
+            {
+                imageUrl : "/projects/project-4.png",
+                category : {
+                    id : 3,
+                    title : "Interior Design"
+                }
+            },
+            {
+                imageUrl : "/projects/project-5.png",
+                category : {
+                    id : 1,
+                    title : "Architecture"
+                }
+            },
+            {
+                imageUrl : "/projects/project-6.png",
+                category : {
+                    id : 2,
+                    title : "Construction"
+                }
+            },
+            {
+                imageUrl : "/projects/project-7.png",
+                category : {
+                    id : 2,
+                    title : "Construction"
+                }
+            },
+            {
+                imageUrl : "/projects/project-8.png",
+                category : {
+                    id : 3,
+                    title : "Interior Design"
+                }
+            }
+
+        ]
+    },
+    experience : {
+        title : "We Create Digital Experience",
+        items : [
+            {
+                number :75,
+                title : "Architecture"
+            },
+            {
+                number :85,
+                title : "Construction"
+            },
+            {
+                number :65,
+                title : "Interior Design"
+            }
+        ]
+    },
+    team : {
+        title : "OUR PROJECT",
+        subtitle : "Meet With Our Team",
+        imageUrl : "/team/image.png",
+        workers : [
+            {
+                name : "Cody Fisher",
+                position : "CEO",
+                order : 1
+            },
+            {
+                name : "Savannah Nguyen",
+                position : "Interior architect",
+                order : 2
+            },
+            {
+                name : "Jerome Bell",
+                position : "Interior",
+                order : 3
+            },
+            {
+                name : "Cameron Williamson",
+                position : "Architect",
+                order : 4
+            },
+            {
+                name : "Marvin McKinney",
+                position : "Construction Head",
+                order : 5
+            }
+        ]
     }
 }
