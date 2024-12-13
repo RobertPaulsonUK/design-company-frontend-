@@ -3,20 +3,20 @@ import {MenuInterface} from "@/utils/types/menu.interface";
 export const MenuData:MenuInterface = {
     menuItems : [
         {
-            title : "The studio",
-            url : '#'
+            title : "Services",
+            url : '#services'
+        },
+        {
+            title : "About us",
+            url : '#about'
         },
         {
             title : "Projects",
-            url : '#'
+            url : '#projects'
         },
         {
-            title : "Architecture",
-            url : '#'
-        },
-        {
-            title : "Blog",
-            url : '#'
+            title : "Team",
+            url : '#team'
         }
     ]
 }

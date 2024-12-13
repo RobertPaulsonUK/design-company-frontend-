@@ -28,7 +28,7 @@ const Header:FC  = () => {
                     <Burger isOpen={isOpen} clickHandler={menuHandler}/>
                 </div>
             </div>
-            <MobileMenu menuItems={MenuData.menuItems} isOpen={isOpen}/>
+            <MobileMenu menuItems={MenuData.menuItems} isOpen={isOpen} closeHandler={menuHandler}/>
         </header>
     )
 }

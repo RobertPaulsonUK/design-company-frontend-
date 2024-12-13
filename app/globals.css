@@ -54,3 +54,6 @@ html.scroll-lock body {
     height: 100%;
     object-fit: contain;
 }
+html,body {
+    scroll-behavior: smooth;
+}

@@ -7,13 +7,22 @@
     <list default="true" id="ce2d156a-11fe-40c4-bf15-2a4c81f52c92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/gallery/gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/gallery/gallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/specialisation/serviceSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/specialisation/serviceSlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/about/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/buttons/headerButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/buttons/headerButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/buttons/mainButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/buttons/mainButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/menuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/menuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/mobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/mobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/intro/decorWord.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/intro/decorWord.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/intro/introContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/intro/introContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/intro/lineDecor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/intro/lineDecor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/intro/starDecor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/intro/starDecor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/projects/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/specialisation/specialisation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/specialisation/specialisation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/team/team.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/team/team.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/data/home.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data/home.data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/types/home.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/types/home.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data/menu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data/menu.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -75,6 +84,7 @@
       <recent name="$PROJECT_DIR$/components/footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/ui/form" />
       <recent name="$PROJECT_DIR$/components/buttons" />
       <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/utils" />
@@ -103,7 +113,8 @@
       <workItem from="1733648185382" duration="21000" />
       <workItem from="1733648247498" duration="14210000" />
       <workItem from="1733772053992" duration="7922000" />
-      <workItem from="1733858351468" duration="12928000" />
+      <workItem from="1733858351468" duration="13875000" />
+      <workItem from="1734013591110" duration="7975000" />
     </task>
     <servers />
   </component>

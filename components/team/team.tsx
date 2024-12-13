@@ -6,7 +6,7 @@ import TeamWrapper from "@/components/team/teamWrapper";
 
 const Team:FC<{data : TeamDataInterface}> = ({data}) => {
     return(
-        <section className="py-[50px] md:py-[100px] xl:py-[140px]">
+        <section id="team" className="py-[50px] md:py-[100px] xl:py-[140px]">
             <div className="container">
                 <SectionSubtitle text={data.subtitle}/>
                 <SectionTitle text={data.title} dopClassname={"mt-[20px]"}/>

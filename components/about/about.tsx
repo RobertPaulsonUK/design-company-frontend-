@@ -12,7 +12,7 @@ interface Props {
 }
 const About:FC<Props> = ({data}) => {
     return(
-        <section className="py-[50px] md:py-[100px] lg:py-[140px] lg:pt-0 relative">
+        <section id="about" className="py-[50px] md:py-[100px] lg:py-[140px] lg:pt-0 relative">
             <div className="container relative z-[1]">
                 <div className="block md:flex md:justify-between md:items-center lg:items-stretch">
                     <div className="text-left md:max-w-[40%] lg:max-w-[45%]">

@@ -6,7 +6,7 @@ import ProjectsWrapper from "@/components/projects/projectsWrapper";
 
 const Projects:FC<{data : ProjectsInterface}> = ({data}) => {
     return(
-        <section className="pb-[50px] pt-[20px] xl:pb-[100px]">
+        <section id="projects" className="pb-[50px] pt-[20px] xl:pb-[100px]">
         <div className="container">
             <div className="xl:translate-y-[90px]">
                 <SectionSubtitle text={data.subtitle}/>

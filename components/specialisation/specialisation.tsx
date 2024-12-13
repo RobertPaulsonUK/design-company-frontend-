@@ -9,7 +9,7 @@ interface Props {
 }
 const Specialisation:FC<Props> = ({data})=> {
     return(
-        <section className="relative py-[50px] md:py-[140px]">
+        <section id="services" className="relative py-[50px] md:py-[140px]">
             <div className="container">
                 <SectionSubtitle text={data.subtitle} dopClassname={"text-left md:text-center"}/>
                 <SectionTitle text={data.title} dopClassname={"text-left md:text-center"}/>

@@ -8,7 +8,7 @@ import LineDecor from "@/components/intro/lineDecor";
 interface Props extends Omit<IntroInterface, "imageSrc">{}
 const IntroContent:FC<Props> = ({title,subtitle,description}) => {
     return(
-        <div className={"relative z-[1] w-full lg:grow lg:h-auto lg:py-[150px] lg:max-w-[50%]"}>
+        <div className={"relative z-[2] w-full lg:grow lg:h-auto lg:py-[150px] lg:max-w-[50%]"}>
             <div className={"text-[#FFC978] text-base font-normal relative z-[1]"}>
                 {subtitle}
             </div>
